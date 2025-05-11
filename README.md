@@ -1,7 +1,6 @@
 # 🧠 GEN-AI-IBM-PROJECT  
-**Python 3.12+ | MIT License**  
-
-[![License](https://img.shields.io/badge/license-MIT-blue )](https://github.com/pra9711/GEN-AI-IBM-PROJECT/blob/main/LICENSE )  
+**Python 3.12+ 
+ 
 *A Generative AI-powered application for automated content creation, built with LangChain, OpenAI, and Streamlit.*  
 
 ---
@@ -36,6 +35,27 @@ Key Use Cases:
    ```bash
    git clone https://github.com/pra9711/GEN-AI-IBM-PROJECT.git 
    cd GEN-AI-IBM-PROJECT
+
+2. **Set up a Virtual Environment (Optional)**
+python -m venv venv
+source venv/bin/activate # macOS/Linux
+venv\Scripts\activate # Windows
+
+3. **Install Dependencies**
+
+4. **Configure OpenAI API Key**
+- Create a `.env` file in the project root:
+  ```
+  nano .env  # or use Notepad
+  ```
+- Add your API key:
+  ```
+  OPENAI_API_KEY=your_openai_api_key_here
+  ```
+
+### Run the App
+
+
 
 Open your browser at `http://localhost:8501` to access the interface.
 
@@ -79,12 +99,6 @@ Open your browser at `http://localhost:8501` to access the interface.
 Contributions are welcome!
 - Fork the repo and submit pull requests.
 - Report issues or suggest enhancements via the GitHub issues tab.
-
----
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
 
 ---
 
