@@ -37,11 +37,14 @@ Key Use Cases:
    cd GEN-AI-IBM-PROJECT
 
 2. **Set up a Virtual Environment (Optional)**
-python -m venv venv
-source venv/bin/activate # macOS/Linux
-venv\Scripts\activate # Windows
+    ```bash
+    python -m venv venv
+    source venv/bin/activate # macOS/Linux
+    venv\Scripts\activate # Windows
 
 3. **Install Dependencies**
+    ```bash
+   pip install -r requirements.txt
 
 4. **Configure OpenAI API Key**
 - Create a `.env` file in the project root:
