@@ -58,7 +58,7 @@ Key Use Cases:
 
  5. Run the App
   ``` bash
-streamlit run StreamlitAPP.py
+streamlit run StreamlitApp.py
   ```
 Open your browser at `http://localhost:8501` to access the interface.
 
