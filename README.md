@@ -58,7 +58,8 @@ Key Use Cases:
 
 ### Run the App
 
-
+  ```bash
+streamlit run StreamlitAPP.py
 
 Open your browser at `http://localhost:8501` to access the interface.
 
@@ -76,16 +77,17 @@ Open your browser at `http://localhost:8501` to access the interface.
 
 ---
 
-## File Structure
+## 📁 File Structure
 
-| File/Folder         | Purpose                                                        |
-|---------------------|----------------------------------------------------------------|
-| StreamlitAPP.py     | Main Streamlit interface for user interaction.                 |
-| mcqgenerator.py     | Core logic for MCQ generation using LangChain and OpenAI.      |
-| utils.py            | Functions for file reading and data formatting.                |
-| logger.py           | Configures application logging.                                |
-| requirements.txt    | Lists Python dependencies.                                     |
-| logs/               | Stores timestamped log files for debugging.                    |
+| 📄 **File/Folder**     | 📝 **Description**                                               |
+|------------------------|------------------------------------------------------------------|
+| `StreamlitAPP.py`      | 🎛️ Main Streamlit interface for user interaction                |
+| `mcqgenerator.py`      | 🧠 Core logic for MCQ generation using LangChain & OpenAI        |
+| `utils.py`             | 🛠️ Utility functions for file reading and data formatting        |
+| `logger.py`            | 📋 Logging configuration and management                          |
+| `requirements.txt`     | 📦 Python dependencies list                                      |
+| `logs/`                | 🗂️ Directory for timestamped log files (debugging & tracking)    |
+
 
 ---
 
