@@ -57,13 +57,12 @@ Key Use Cases:
   ```
 
 ### Run the App
-
-  ```bash
 streamlit run StreamlitAPP.py
 
 Open your browser at `http://localhost:8501` to access the interface.
 
 ---
+
 
 ## Usage Guide
 
