@@ -27,7 +27,7 @@ Key Use Cases:
 ## 🚀 **Getting Started**  
 
 ### **Prerequisites**  
-- Python 3.7+  
+- Python 3.12+  
 - OpenAI API key ([get one here](https://platform.openai.com/ ))  
 
 ### **Installation**  
@@ -49,16 +49,17 @@ Key Use Cases:
 4. **Configure OpenAI API Key**
 - Create a `.env` file in the project root:
   ```
-  nano .env  # or use Notepad
+  notepad .env  # or use Notepad
   ```
 - Add your API key:
   ```
   OPENAI_API_KEY=your_openai_api_key_here
   ```
 
-### Run the App
+ 5. Run the App
+  ``` bash
 streamlit run StreamlitAPP.py
-
+  ```
 Open your browser at `http://localhost:8501` to access the interface.
 
 ---
