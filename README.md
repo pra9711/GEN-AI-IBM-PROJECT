@@ -37,35 +37,57 @@ Key Use Cases:
    git clone https://github.com/pra9711/GEN-AI-IBM-PROJECT.git 
    cd GEN-AI-IBM-PROJECT
 
-profile
-Qwen3-235B-A22B
-7:08 pm
-Thinking completed
-·
-38,912 tokens budget
-Okay, the user wants a GitHub README code based on the provided instructions. Let me start by understanding what they need.
+Open your browser at `http://localhost:8501` to access the interface.
 
-First, looking at the user's input, they have specific steps for setting up a virtual environment, installing dependencies, configuring the OpenAI API key, running the app, and more. They also mentioned sections like Usage Guide, File Structure, Acknowledgments, Contributions, License, and Support. The user wants this in code format so they can directly paste it into their GitHub README.
+---
 
-I need to structure this into a Markdown file. Let me recall the standard sections of a README: Title, Description, Features, Installation/Setup, Usage, File Structure, Acknowledgments, Contributions, License, and Support. The user's input includes all these elements, so I'll map them accordingly.
+## Usage Guide
 
-The user provided code snippets for setup steps. I should format these as code blocks using triple backticks. Also, they want badges for license and maybe other metrics, but since they didn't specify, I'll include the license badge as in the previous example.
+1. **Upload a File:** Drag/drop a PDF or TXT file (e.g., textbooks, lecture notes).
+2. **Customize Parameters:**
+   - Specify the number of MCQs (1–10).
+   - Choose a subject (e.g., Biology, Geography).
+   - Set difficulty level (Easy/Medium/Hard).
+3. **Generate MCQs:** Click "Create MCQs" to process the input and view results.
+4. **Review Output:** Generated questions appear in a table with options, correct answers, and explanations.
 
-I need to ensure that the GitHub link is correct. The user mentioned modifying the GitHub link to their repository, so I'll use `https://github.com/pra9711/GEN-AI-IBM-PROJECT` as per their earlier message.
+---
 
-The user also included sections like Acknowledgments and Contributions, which should be written in a concise manner. I'll make sure those are included with appropriate headings.
+## File Structure
 
-I should check for any missing parts. For example, the original example had a "Getting Started" section with Prerequisites. The user's input includes Prerequisites under the Setup, so I'll integrate that.
+| File/Folder         | Purpose                                                        |
+|---------------------|----------------------------------------------------------------|
+| StreamlitAPP.py     | Main Streamlit interface for user interaction.                 |
+| mcqgenerator.py     | Core logic for MCQ generation using LangChain and OpenAI.      |
+| utils.py            | Functions for file reading and data formatting.                |
+| logger.py           | Configures application logging.                                |
+| requirements.txt    | Lists Python dependencies.                                     |
+| logs/               | Stores timestamped log files for debugging.                    |
 
-The user's input has a section for Running the App and Usage Guide. These should be separate sections with clear instructions.
+---
 
-File Structure is important, so I'll list each file/directory and its purpose in a table for readability.
+## Acknowledgments
 
-Finally, the License and Support sections need to be included, along with a link to the GitHub repository at the end.
+- Powered by LangChain for advanced prompt engineering and LLM orchestration.
+- Uses OpenAI API for high-quality text generation.
+- Built with Streamlit for rapid web interface development.
 
-I need to make sure that all code blocks are properly formatted and that the Markdown syntax is correct. Also, any special characters like underscores or asterisks should be escaped if necessary.
+---
 
-Putting it all together, the README should be clean, well-organized, and easy to follow for anyone contributing to or using the project. I'll start drafting each section step by step, ensuring that all user-provided content is included accurately.
-Here’s a clean and well-structured README.md in Markdown format that you can directly copy-paste into your GitHub repository:
+## Contributions
 
+Contributions are welcome!
+- Fork the repo and submit pull requests.
+- Report issues or suggest enhancements via the GitHub issues tab.
 
+---
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+---
+
+## Support
+
+Have questions or feedback? Reach out via GitHub or email. Happy coding! 🚀
